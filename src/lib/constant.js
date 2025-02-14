@@ -12,7 +12,7 @@ export const initialItems = [
   {
     id: 3,
     name: "phone charger",
-    packed: true,
+    packed: false,
   },
 ];
 

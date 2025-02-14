@@ -12,7 +12,7 @@ function Item({ item }) {
   return (
     <li className="item">
       <label>
-        <input type="checkbox" />
+        <input checked={item.packed} type="checkbox" />
         {item?.name}
       </label>
       <button>❌</button>
