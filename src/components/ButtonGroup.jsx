@@ -1,11 +1,5 @@
+import { secondaryButtons } from "../lib/constant";
 import Button from "./Button";
-
-const secondaryButtons = [
-  "Mark all as completed",
-  "Mark all as incomplete",
-  "Reset to initial",
-  "Remove all items",
-];
 
 export default function ButtonGroup() {
   return (
